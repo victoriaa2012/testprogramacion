@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(html.png);
+    background-size: cover;
+}
+
+.contenedor{
+    flex-direction: column;
+    border: 2px solid black;
+    width: 90%;
+    max-width: 500px;
+    min-height:80vh ;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.603);
+
+    -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+.pregunta1{
+    margin: 10px;
+    font-size: 40px;
+    width: 90%;
+    min-height: 6vh;
+}
+
+.pregunta2{
+    margin: 10px;
+    font-size: 40px;
+    width: 90%;
+    min-height: 6vh;
+}
+
+.pregunta3{
+    margin: 10px;
+    font-size: 40px;
+    width: 90%;
+    min-height: 6vh;
+}
+
+.pregunta4{
+    margin: 10px;
+    font-size: 40px;
+    width: 90%;
+    min-height: 6vh;
+}
+
+.pregunta5{
+    margin: 10px;
+    font-size: 40px;
+    width: 90%;
+    min-height: 6vh;
+}
+
+button{
+    text-align: left;
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+#pre2, #pre3, #pre4, #pre5, #bien{
+    display:  none;
+}
+
+#bien{
+    font-size: 50px;
+
+}
+
+.imagen1{
+    width: 90%;
+}
+
+.enlace{
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.438);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
