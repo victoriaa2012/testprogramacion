@@ -29,43 +29,43 @@ body{
 
 .pregunta1{
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     width: 90%;
     min-height: 6vh;
 }
 
 .pregunta2{
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     width: 90%;
     min-height: 6vh;
 }
 
 .pregunta3{
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     width: 90%;
     min-height: 6vh;
 }
 
 .pregunta4{
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     width: 90%;
     min-height: 6vh;
 }
 
 .pregunta5{
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     width: 90%;
     min-height: 6vh;
 }
 
 button{
     text-align: left;
-    font-size: 30px;
-    width: 400px;
+    font-size: 21px;
+    width: 90%;
     height: 100px;
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.438);
@@ -86,7 +86,7 @@ button{
 
 .enlace{
     font-size: 30px;
-    width: 400px;
+    width: 90%;
     height: 100px;
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.438);
